@@ -20,7 +20,9 @@ In order to use this script:
 
 1. Create an environment variable named 'GIT_KEY' with your GitHub access token.
 
+```
     export GIT_KEY="YourAccessTokenHere"
+```
 
 2. Change the 'localProjectDirectory' value to your desired project directory
 location.
