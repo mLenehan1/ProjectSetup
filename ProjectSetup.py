@@ -102,6 +102,7 @@ def removeGitProject(project_name):
             print("File Does Not Exist In the Specified Location")
             return False
     elif userChoice == "n":
+        return False
     else:
         print("Invalid Input")
         removeGitProject(project_name)
@@ -120,6 +121,7 @@ def removeGitHubProject(project_name):
         except GithubException:
             print("GitHub Repo Does Not Exist")
     elif userChoice == "n":
+        return False
     else:
         print("Invalid Input")
         removeGitHubProject(project_name)
