@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from sys import argv
 from os import mkdir, chdir, system, environ
 from shutil import rmtree
